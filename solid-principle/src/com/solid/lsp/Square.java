@@ -23,4 +23,14 @@ public class Square implements IShape {
     public int getArea() {
         return this.side * this.side;
     }
+
+    @Override
+    public int getHeight() {
+        return this.side;
+    }
+
+    @Override
+    public int getWidth() {
+        return this.side;
+    }
 }
